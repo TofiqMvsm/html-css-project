@@ -1,0 +1,324 @@
+@media (max-width: 768px) {
+  .navbar .toggle-button {
+    display: flex !important;
+  }
+  .navbar nav {
+    display: none;
+  }
+  #first-section .introduction {
+    width: 768px;
+  }
+  #first-section .introduction .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #first-section .introduction .heading {
+    left: 30px;
+    top: 170px;
+  }
+  #first-section .introduction .heading h1 {
+    width: 390px !important;
+    font-size: 31px !important;
+    line-height: 1.2;
+  }
+  #first-section .introduction .heading p {
+    width: 390px !important;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  #first-section .introduction .form {
+    top: 50px !important;
+    right: 20px !important;
+    width: 300px !important;
+  }
+  #first-section .introduction .form .content h3 {
+    color: #204570;
+  }
+  #first-section .introduction .form h3 {
+    font-size: 21px !important;
+  }
+  #info .container {
+    width: 700px;
+    flex-wrap: wrap;
+  }
+  #info .container .info-images {
+    padding-top: 60px !important;
+    padding-bottom: 50px !important;
+  }
+  #info .container .info-images img {
+    width: 550px;
+  }
+  #info .container .info-images .counter {
+    bottom: 53px !important;
+    width: 192px;
+    height: 165px;
+  }
+  #info .container .info-content {
+    width: 470px !important;
+    margin-top: 0 !important;
+    margin-bottom: 50px;
+  }
+  #loan {
+    width: 100% !important;
+  }
+  #loan .container {
+    width: 700px !important;
+  }
+  #loan .container h2 {
+    width: 100%;
+  }
+  #loan .container .slide-cards {
+    margin-left: 25px;
+  }
+  #loan .container .slide-cards .card {
+    width: 300px;
+  }
+  #loan .container .slide-cards .card .card-body h5 {
+    font-size: 20px;
+    width: 250px;
+  }
+  #loan .container .slide-cards .card .card-body p {
+    font-size: 15px;
+    width: 250px;
+  }
+  #loan .container .slide-cards .card-3 {
+    display: none !important;
+  }
+  #slide {
+    width: 100% !important;
+  }
+  #slide .container {
+    width: 720px !important;
+  }
+  #slide .container .carousel-inner {
+    width: 690px !important;
+  }
+  #slide .container .carousel-inner .carousel-item h2 {
+    font-size: 16px !important;
+    display: block;
+    margin-bottom: 33px;
+    width: 690px !important;
+  }
+  #slide .container .carousel-inner .carousel-item p {
+    margin-right: 300px;
+  }
+  #how-it-works {
+    width: 100% !important;
+  }
+  #how-it-works .container {
+    width: 720px !important;
+  }
+  #how-it-works .container .how-cards {
+    flex-wrap: wrap !important;
+  }
+  #how-it-works .container .how-cards .how-card {
+    width: 280px !important;
+  }
+  #question-section {
+    width: 768px !important;
+  }
+  #question-section .container {
+    width: 720px !important;
+    flex-wrap: wrap !important;
+    row-gap: 50px !important;
+  }
+  #footers {
+    width: 768px !important;
+  }
+  #footers .container {
+    width: 720px !important;
+    flex-wrap: wrap !important;
+    -moz-column-gap: 30px !important;
+         column-gap: 30px !important;
+    row-gap: 35px !important;
+    padding-top: 50px !important;
+  }
+  #footers .container .footer-logo-contact {
+    width: 360px !important;
+  }
+  #footers p {
+    width: 660px !important;
+    left: 65px !important;
+  }
+}
+@media (max-width: 480px) {
+  #first-section .introduction {
+    width: 480px;
+  }
+  #first-section .introduction .container {
+    width: 100% !important;
+    height: 820px !important;
+    margin: 0 auto;
+    position: relative !important;
+  }
+  #first-section .introduction .container .heading {
+    width: 100% !important;
+    height: 300px !important;
+    position: absolute;
+    left: 0 !important;
+    top: 50px;
+    padding-left: 20px;
+  }
+  #first-section .introduction .container .heading h1 {
+    font-size: 29px !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+  }
+  #first-section .introduction .container .heading p {
+    width: 100% !important;
+  }
+  #first-section .introduction .container .form {
+    position: absolute !important;
+    top: 350px !important;
+    width: 100% !important;
+    height: 530px !important;
+    left: 1px;
+  }
+  #info .container {
+    width: 480px;
+  }
+  #info .container .info-images {
+    width: 100%;
+    padding-top: 160px !important;
+  }
+  #info .container .info-images img {
+    width: 450px;
+  }
+  #info .container .info-images .counter {
+    width: 105px !important;
+    height: 85px !important;
+  }
+  #info .container .info-images .counter i,
+#info .container .info-images .counter span {
+    font-size: 24px !important;
+  }
+  #info .container .info-content {
+    width: 100%;
+  }
+  #info .container .info-content h2 {
+    text-align: left;
+    font-size: 26px !important;
+  }
+  #info .container .info-content p {
+    text-align: left;
+  }
+  #loan {
+    width: 480px !important;
+  }
+  #loan .container {
+    width: 480px !important;
+  }
+  #loan .container h2 {
+    text-align: left;
+    font-size: 26px;
+    margin: 0 !important;
+    padding: 70px 0 40px 10px !important;
+    width: 420px !important;
+  }
+  #loan .container .slide-cards {
+    margin-right: 25px;
+  }
+  #loan .container .slide-cards .card-3,
+#loan .container .slide-cards .card-2 {
+    display: none !important;
+  }
+  #loan .container .slide-cards .card {
+    width: 450px !important;
+  }
+  #loan .container .slide-cards .card .card-body {
+    width: 100% !important;
+  }
+  #loan .container .slide-cards .card .card-body p {
+    width: 350px;
+  }
+  #slide {
+    width: 100% !important;
+  }
+  #slide .container {
+    width: 480px !important;
+  }
+  #slide .container #testimonial-carousel {
+    width: 480px !important;
+  }
+  #slide .container #testimonial-carousel .carousel-inner {
+    width: 480px !important;
+  }
+  #slide .container #testimonial-carousel .carousel-inner .carousel-item h2 {
+    font-size: 16px !important;
+    display: block;
+    margin-bottom: 33px;
+    width: 420px !important;
+  }
+  #slide .container #testimonial-carousel .carousel-inner .carousel-item p {
+    text-align: left;
+    margin-left: 150px;
+  }
+  #slide .slide-footer {
+    width: 450px;
+    flex-wrap: wrap !important;
+  }
+  #slide .slide-footer .counter-slide {
+    height: 200px !important;
+    width: 450px !important;
+  }
+  #slide .slide-footer .slide-image {
+    width: 450px !important;
+    height: 220px !important;
+  }
+  #how-it-works {
+    width: 100% !important;
+  }
+  #how-it-works .container {
+    width: 480px !important;
+  }
+  #how-it-works .container .static {
+    flex-wrap: wrap !important;
+  }
+  #how-it-works .container .static .how-image {
+    width: 450px !important;
+    height: 220px !important;
+  }
+  #how-it-works .container .static .number-box {
+    width: 450px !important;
+    height: 220px !important;
+  }
+  #question-section {
+    width: 100% !important;
+  }
+  #question-section .container {
+    width: 480px !important;
+    flex-wrap: wrap !important;
+    row-gap: 50px !important;
+  }
+  #question-section .container .question-info h2 {
+    text-align: left;
+    font-size: 26px !important;
+    color: #204570 !important;
+  }
+  #question-section .container .questions .question {
+    width: 420px !important;
+  }
+  #footers {
+    width: 100% !important;
+    height: 1100px;
+  }
+  #footers .container {
+    padding-left: 15px !important;
+    width: 480px !important;
+    row-gap: 50px !important;
+  }
+  #footers .container .footer-logo-contact .contact p {
+    width: 450px !important;
+  }
+  #footers .container .newsletter {
+    width: 450px !important;
+  }
+  #footers .container .newsletter p {
+    width: 450px !important;
+  }
+  #footers .footers-p p {
+    width: 450px !important;
+    left: 0 !important;
+    text-align: center;
+  }
+}/*# sourceMappingURL=responsive.css.map */

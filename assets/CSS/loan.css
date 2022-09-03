@@ -1,0 +1,31 @@
+#loan-heading {
+  height: 57vh;
+  background-image: url(/assets/images/loan.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#loan-heading .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#loan-heading .container h2 {
+  font-size: 74px;
+  margin-bottom: 14px;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 110px;
+}
+#loan-heading .container p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+#laon .slide-cards {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=loan.css.map */

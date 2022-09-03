@@ -1,0 +1,362 @@
+
+@media (max-width: 768px) {
+  .navbar {
+    .toggle-button {
+      display: flex !important;
+    }
+    nav {
+      display: none;
+    }
+  }
+  #first-section {
+    .introduction {
+      width: 768px;
+      .container {
+        width: 700px;
+        margin: 0 auto;
+      }
+      .heading {
+        left: 30px;
+        top: 170px;
+
+        h1 {
+          width: 390px !important;
+          font-size: 31px !important;
+          line-height: 1.2;
+        }
+        p {
+          width: 390px !important;
+          font-size: 18px;
+          line-height: 1.6;
+        }
+      }
+      .form {
+        .content {
+          h3 {
+            color: #204570;
+          }
+        }
+        top: 50px !important;
+        right: 20px !important;
+        width: 300px !important;
+        h3 {
+          font-size: 21px !important;
+        }
+      }
+    }
+  }
+  #info {
+    .container {
+      width: 700px;
+      flex-wrap: wrap;
+      .info-images {
+        img {
+          width: 550px;
+        }
+        padding-top: 60px !important;
+        padding-bottom: 50px !important;
+        .counter {
+          bottom: 53px !important;
+          width: 192px;
+          height: 165px;
+        }
+      }
+      .info-content {
+        width: 470px !important;
+        margin-top: 0 !important;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  #loan {
+    width: 100% !important;
+    .container {
+      width: 700px !important;
+      h2 {
+        width: 100%;
+      }
+      .slide-cards {
+        margin-left: 25px;
+        .card {
+          width: 300px;
+          .card-body {
+            h5 {
+              font-size: 20px;
+              width: 250px;
+            }
+            p {
+              font-size: 15px;
+              width: 250px;
+            }
+          }
+        }
+        .card-3 {
+          display: none !important;
+        }
+      }
+    }
+  }
+  #slide {
+    width: 100% !important;
+
+    .container {
+      width: 720px !important;
+      .carousel-inner {
+        width: 690px !important;
+      
+        .carousel-item {
+          h2 {
+            font-size: 16px !important;
+            display: block;
+            margin-bottom: 33px;
+            width: 690px !important;
+          }
+          p{
+            margin-right: 300px;
+          }
+        }
+      }
+    }
+  }
+  #how-it-works{
+    width: 100% !important;
+    .container{
+      width: 720px !important;
+      .how-cards{
+        flex-wrap: wrap !important;
+        .how-card{
+          width: 280px !important;
+        }
+      }
+    }
+  }
+  #question-section{
+    width: 768px !important;
+    .container{
+      width: 720px!important;
+      flex-wrap: wrap !important;
+      row-gap: 50px !important;
+    }
+  }
+  #footers{
+    width: 768px !important;
+    .container{
+      width: 720px !important;
+      flex-wrap: wrap !important;
+      column-gap: 30px !important;
+      row-gap: 35px !important;
+      padding-top: 50px !important;
+      .footer-logo-contact{
+        width: 360px !important;
+      }
+    }
+    p{
+      width: 660px !important;
+      left: 65px !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #first-section {
+    .introduction {
+      width: 480px;
+      .container {
+        width: 100% !important;
+        height: 820px !important;
+        margin: 0 auto;
+        position: relative !important;
+
+        .heading {
+          width: 100% !important;
+          height: 300px !important;
+          position: absolute;
+          left: 0 !important;
+          top: 50px;
+          padding-left: 20px;
+          //   padding-bottom: 50px;
+          h1 {
+            font-size: 29px !important;
+            line-height: 1.4 !important;
+            width: 100% !important;
+          }
+          p {
+            width: 100% !important;
+          }
+        }
+        .form {
+          position: absolute !important;
+          top: 350px !important;
+          width: 100% !important;
+          height: 530px !important;
+          left: 1px;
+        }
+      }
+    }
+  }
+  #info {
+    .container {
+      width: 480px;
+      .info-images {
+        width: 100%;
+        padding-top: 160px !important;
+        img {
+          width: 450px;
+        }
+        .counter {
+          width: 105px !important;
+          height: 85px !important;
+          i,
+          span {
+            font-size: 24px !important;
+          }
+        }
+      }
+      .info-content {
+        width: 100%;
+        h2 {
+          text-align: left;
+          font-size: 26px !important;
+        }
+        p {
+          text-align: left;
+          
+        }
+      }
+    }
+  }
+  #loan {
+    width: 480px !important;
+    .container {
+      width: 480px !important;
+      h2 {
+        text-align: left;
+        font-size: 26px;
+        margin: 0 !important;
+        padding: 70px 0 40px 10px !important;
+        width: 420px !important;
+      }
+      .slide-cards {
+        margin-right: 25px;
+        .card-3,
+        .card-2 {
+          display: none !important;
+        }
+        .card {
+          .card-body {
+            width: 100% !important;
+            p {
+              width: 350px;
+            }
+          }
+          width: 450px !important;
+        }
+      }
+    }
+  }
+  #slide {
+     width: 100% !important;
+    .container {
+      width: 480px !important;
+      #testimonial-carousel {
+        width: 480px !important;
+        .carousel-inner {
+          width: 480px !important;
+          .carousel-item {
+            h2 {
+              font-size: 16px !important;
+              display: block;
+              margin-bottom: 33px;
+              width: 420px !important;
+            }
+            p{
+              text-align: left;
+              margin-left: 150px;
+            }
+          }
+        }
+      }
+    }
+
+    .slide-footer {
+      width: 450px;
+      flex-wrap: wrap !important;
+      .counter-slide {
+        height: 200px !important;
+        width: 450px !important;
+      }
+      .slide-image {
+        width: 450px !important;
+        height: 220px !important;
+      }
+    }
+  }
+  #how-it-works{
+    width: 100% !important;
+    .container{
+      width: 480px !important;
+      .static{
+        flex-wrap: wrap !important;
+        .how-image{
+          width: 450px !important;
+        height: 220px !important;
+        }
+        .number-box{
+          width: 450px !important;
+        height: 220px !important;
+        }
+      }
+    }
+  }
+  #question-section{
+    width: 100%!important;
+    .container{
+      width: 480px!important;
+      flex-wrap: wrap !important;
+      row-gap: 50px !important;
+      .question-info{
+        h2{
+          text-align: left;
+          font-size: 26px !important;
+          color: #204570 !important;
+        }
+      }
+      .questions{
+        .question{
+          width: 420px !important;
+        }
+      }
+    }
+  }
+  #footers{
+    width: 100% !important;
+    height: 1100px ;
+    .container{
+      padding-left: 15px !important;
+      width: 480px !important;
+      row-gap: 50px !important;
+      .footer-logo-contact{
+        .contact{
+        p{         
+            width: 450px !important;
+        }
+        }
+      }
+      .newsletter{
+        width: 450px !important;
+        p{
+          width: 450px !important;
+        }
+        
+      }
+    }
+    .footers-p{
+      p{
+        width: 450px !important;
+        left: 0 !important;
+        text-align: center;
+      }
+    }
+    
+  }
+}
